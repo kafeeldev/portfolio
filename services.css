@@ -1,0 +1,168 @@
+.logo {
+    position: absolute;
+    margin: -140px;
+    padding-left: 130px;
+    height: auto;
+    left: 0px;
+    width: 275px;
+}
+
+body {
+    background-color: rgb(0, 0, 33);
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+nav {
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    height: 80px;
+    background-color: rgb(18, 18, 62);
+}
+
+nav ul {
+    display: flex;
+    gap: 45px;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+
+nav ul li a:hover {
+    color: rgb(122, 122, 182);
+    font-size: 1.04rem;
+}
+
+
+
+.services-page {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.services-page h1 {
+    font-size: 2.5rem;
+    color: #9c97f1;
+    margin-bottom: 20px;
+}
+
+.services-page p {
+    font-size: 1.2rem;
+    color: gray;
+    margin-bottom: 40px;
+}
+
+.services-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.service-box {
+    background-color: #202040;
+    padding: 20px;
+    border-radius: 8px;
+    width: 250px;
+    text-align: center;
+    color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.service-box img {
+    width: 100px;
+    margin-bottom: 15px;
+}
+
+.service-box h3 {
+    font-size: 1.5rem;
+    color: #9c97f1;
+    margin-bottom: 10px;
+}
+
+.service-box p {
+    font-size: 1rem;
+    color: gray;
+}
+footer {
+    background-color: #0e0e1a;
+    padding: 40px 0;
+    margin: 20px;
+    color: white;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 50px;
+}
+
+.footer-logo {
+    position: absolute;
+    margin: -140px;
+    padding-left: 70px;
+    height: auto;
+    left: 10px;
+    width: 400px;
+}
+
+.footer h3 {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer ul li {
+    margin-bottom: 10px;
+}
+
+.footer ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer ul li a:hover {
+    text-decoration: underline;
+}
+
+.copy {
+    text-align: center;
+    margin-top: 20px;
+    color: gray;
+}
+
+@media (max-width: 768px) {
+    .footer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-logo {
+        margin-bottom: 20px;
+    }
+
+    .footer h3 {
+        margin-top: 20px;
+    }
+}
+.bround{
+    border-radius: 500px;
+}
+.fround{
+    border-radius: 85px;
+}

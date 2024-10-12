@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Developer - KAFEEL DEV </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="Favicon/favicon.ico">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="index.html">
+                <div class="left"><img class="logo" src="images/logo remove.png" alt=""></div>
+            </a>
+            <div class="right">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="contact.html">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">Hi, My name is <span class="purple">KAFEEL FAISAL</span>
+                <div>and I am a</div>
+                <span id="element"></span>
+            </div>
+            <div>
+                <a id="button" target="_blank" class="ani-button"
+                    href="https://drive.google.com/file/d/1o8M97dTcCgNlwgQ-eantQj88RfQH3Ccs/view?usp=drive_link"
+                    style="--clr:#1e9bff"><span>Download CV</span><i></i></a>
+                <a id="button2" target="_blank" class="ani-button" href="https://github.com/kafeeldev"
+                    style="--clr:#1e9bff"><span>Visit GitHub</span><i></i></a>
+            </div>
+            <div class="rightsection"><img src="images/bg.png" alt=""></div>
+        </section>
+        <hr>
+        <section id="experience" class="secondsection">
+            <span class="text-gray">What I have done so far</span>
+            <h1>Work Experience</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="images/3.png" alt="">
+                    <div class="vertical-title">Frontend Developer TechNest Solutions (2022-2023)</div>
+                    <div class="vertical-desc">
+                        <ul>
+                            <li>Developed and maintained responsive websites using HTML, CSS, and JavaScript.</li>
+                            <li>Collaborated with designers to transform UI/UX designs into interactive web pages.</li>
+                            <li>Optimized website performance, reducing load times by up to 25%.</li>
+                            <li>Implemented interactive features like dynamic forms and sliders.</li>
+                            <li>Used Git for version control.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="images/2.png" alt="">
+                    <div class="vertical-title">Junior Frontend Developer WebCore Creatives (2021-2022)</div>
+                    <div class="vertical-desc">
+                        <ul>
+                            <li>Created pixel-perfect websites adhering to client specifications.</li>
+                            <li>Built responsive layouts for mobile, tablet, and desktop devices.</li>
+                            <li>Worked closely with backend developers to integrate APIs.</li>
+                            <li>Resolved cross-browser compatibility issues.</li>
+                            <li>Participated in code reviews to maintain clean codebases.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <img class="footer-logo" src="images/logo remove.png" alt="Kafeel Dev Logo">
+            </div>
+            <div class="footer-second">
+                <h3>Follow Me</h3>
+                <ul>
+                    <li><a target="_blank" href="https://github.com/kafeeldev">Github</a></li>
+                    <li><a target="_blank" href="https://www.linkedin.com/in/kafeeldev/">Linkedin</a></li>
+                    <li><a target="_blank" href="https://www.facebook.com/profile.php?id=61567216404351">Facebook</a>
+                    </li>
+                    <li><a target="_blank" href="#contact">Contact Me</a></li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <h3>Frontend Resources</h3>
+                <ul>
+                    <li><a target="_blank" href="https://developer.mozilla.org/en-US/">MDN Web Docs</a></li>
+                    <li><a target="_blank" href="https://css-tricks.com/">CSS-Tricks</a></li>
+                    <li><a target="_blank" href="https://frontendmentor.io/">Frontend Mentor</a></li>
+                    <li><a target="_blank" href="https://caniuse.com/">Can I Use</a></li>
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                <h3>Tools I Use</h3>
+                <ul>
+                    <li><a target="_blank" href="https://code.visualstudio.com/">Visual Studio Code</a></li>
+                    <li><a target="_blank" href="https://git-scm.com/">Git</a></li>
+                    <li><a target="_blank" href="https://www.figma.com/">Figma</a></li>
+                    <li><a target="_blank" href="https://webpack.js.org/">Webpack</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="copy">Copyright &copy; 2024 KAFEEL DEV - Frontend Developer</div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Designer', 'Frontend Developer.'],
+            typeSpeed: 50,
+        });
+    </script>
+    <script>
+        function toggleMenu() {
+            var links = document.getElementById("nav-links");
+            if (links.style.display === "block") {
+                links.style.display = "none";
+            } else {
+                links.style.display = "block";
+            }
+        }
+    </script>
+</body>
+
+</html>
